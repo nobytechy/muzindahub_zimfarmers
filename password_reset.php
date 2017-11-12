@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head><link rel="shortcut icon" href="fav.png" type="image/x-icon"/>
-<title></title>
+<title>Farmerp assword reset|Welcome</title>
 </head>
 <body>
 <?php

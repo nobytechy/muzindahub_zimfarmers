@@ -13,7 +13,7 @@ top">Top</button>
 
 <!-- farmer login modal start here -->
 <div id="farmer" class="modalDialog">
-	<div class="col-sm-12">
+	<div>
 		<a href="#close" title="Close" class="close">X</a>
 <form name="bulk_action_form" action="inc/login_processor.php" method="post" onsubmit="return changeConfirm();" enctype="multipart/form-data"/ style="background-color: #CCC;padding: 5px;margin-top:3px;border-radius: 3px" autocomplete="off">
 <img class="img-responsive" style="box-shadow: 0 12px 6px -6px #060;" src="images/slide2.jpg">

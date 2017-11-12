@@ -27,7 +27,7 @@ top">Top</button>
 	
   
   <button type="submit" name="farmer_login"  class="btn btn-success"><span style="color:#FFF">Login</span></button>
-  <a href="password_reset.php">Forgot password please Click Here</a>         
+  <a href="password_reset.php?action=retrive your password now">Forgot password please Click Here</a>         
 </form>
 	</div>
 </div>
@@ -47,7 +47,8 @@ top">Top</button>
 <input type="password" name="password" class="form-control" id="inputsurname" placeholder="Enter password please" required>
 	
   
-  <button type="submit" name="helper_login"  class="btn btn-success"><span style="color:#FFF">Login</span></button> <a href="password_reset1.php">Forgot password please Click Here</a>           
+  <button type="submit" name="helper_login"  class="btn btn-success"><span style="color:#FFF">Login</span></button> 
+	<a href="password_reset1.php?action=retrive your password now">Forgot password please Click Here</a>           
 </form>
 	</div>
 </div>
@@ -67,7 +68,8 @@ top">Top</button>
 <input type="password" name="password" class="form-control" id="inputsurname" placeholder="Enter password please" required>
 	
   
-  <button type="submit" name="dealer_login"  class="btn btn-success"><span style="color:#FFF">Login</span></button><a href="password_reset2.php">Forgot password please Click Here</a>           
+  <button type="submit" name="dealer_login"  class="btn btn-success"><span style="color:#FFF">Login</span></button>
+	<a href="password_reset2.php?action=retrive your password now">Forgot password please Click Here</a>           
 </form>
 	</div>
 </div>

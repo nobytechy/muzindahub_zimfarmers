@@ -57,16 +57,17 @@ if(isset($_POST['pass_retrive']))
  class="glyphicon glyphicon-lock"></span> <u><?php echo strrev($pass); ?></u> </p>
         <div class="form-group">
             <label>First Name</label>
-            <input name="name" class="form-control validate" type="text" pattern="^[A-Za-z]+" title="Please enter your name" required>
+            <input name="name" class="form-control validate" type="text" pattern="^[A-Za-z]+" title="Please enter your name" 
+      required style="width: 50%">
         </div>
         <div class="form-group">
             <label>Last Name</label>
-            <input name="surname" class="form-control" type="text" pattern="^[A-Za-z]+" required>
+            <input name="surname" class="form-control" type="text" pattern="^[A-Za-z]+" required style="width: 50%">
         </div>
    
         <div class="form-group">
-        	<label>What was your favourite crop name when you registered</label>
-            <input name="question" class="form-control validate" type="text" required>
+        	<label>What was your favourite crop name <br> when you registered</label>
+            <input name="question" class="form-control validate" type="text" required style="width: 50%">
         </div>
         <button type="submit" name="pass_retrive"  style="margin-top:3px;margin-bottom:3px" class="btn btn-lg btn-success">Retrieve</button>
 </form></center>

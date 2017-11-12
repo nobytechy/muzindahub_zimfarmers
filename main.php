@@ -166,20 +166,20 @@ $num=0;
   </div>
 </div>
 <!--  end here -->
+	
+	
 <div id="admin" class="modalDialog">
-  <div class="col-sm-12">
+  <div>
     <a href="#close" title="Close" class="close">X</a>
-<form name="bulk_action_form" action="inc/login_processor.php" method="post" style="background-color: #CCC;border-radius: 3px" autocomplete="off">
-<center><img class="img-responsive" style="box-shadow: 0 12px 6px -6px #060;" width="55" height="55" src="images/avatar.png"></center>
+<form name="bulk_action_form" action="inc/login_processor.php" method="post" style="background-color: #CCC;border-radius: 3px;" autocomplete="off">
   <h5 class="text-center text-success"><strong>System Adminstrator</strong></h5>
-<label style="color: #000" for="inputsurname"> Username</label>
-<input type="text" name="username" class="form-control" id="inputsurname" placeholder="Enter username please" required>
+<label style="color: #000;padding-left: 5px" for="inputsurname"> Username</label>
+<input type="text" name="username" class="form-control" id="inputsurname" placeholder="tebulo123" required>
 
-<label style="color: #000" for="inputsurname"> Password</label>
-<input type="password" name="password" class="form-control" id="inputsurname" placeholder="Enter password please" required>
-  
-  
-  <button type="submit" name="admin_login"  class="btn btn-success"><span style="color:#FFF">Login</span></button> <hr>          
+<label style="color: #000;padding-left: 5px" for="inputsurname"> Password</label>
+<input type="password" name="password" class="form-control" id="inputsurname" placeholder="**********" required>
+ <p class="text-center" style="margin-top: 3px"><button type="submit" name="admin_login"  class="btn btn-success"><span style="color:#FFF">Login</span></button></p>
+ <hr>          
 </form>
   </div>
 </div>

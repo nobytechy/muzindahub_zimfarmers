@@ -155,7 +155,7 @@
 
 </div>
 <div id="farmer" class="modalDialog">
-  <div class="col-sm-12">
+  <div>
     <a href="#close" title="Close" class="close">X</a>
 <form  action="inc/login_processor.php" method="post" style="background-color: #CCC;padding: 5px;margin-top:3px;border-radius: 3px" autocomplete="off">
 <img class="img-responsive" style="box-shadow: 0 12px 6px -6px #060;" src="images/slide2.jpg">
